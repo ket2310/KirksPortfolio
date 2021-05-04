@@ -28,8 +28,11 @@ header {
   
   nav ul {
     display: flex;
+    font-size: 150%;
     justify-content: space-between;
-    min-width: 300px;
+    width: 450px;
+    text-decoration: underline;
+    
   }
   
   nav a {
