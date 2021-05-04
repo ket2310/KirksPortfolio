@@ -8,12 +8,17 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #13494b;
+    Background-color: #13494b;
     color: #fff;
   }
 
   h1 {
+    text-align: right;
+    padding: 1%;
+    width: 400px;
     font-size: 200%;
+    background-color: rgb(147, 209, 189);
+    color: rgb(6, 53, 35);
   }
   
   h2 {
