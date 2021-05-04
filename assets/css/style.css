@@ -1,3 +1,9 @@
+:root {
+  --block-background: rgb(147, 209, 189);
+  --block-font: rgb(6, 53, 35);
+
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -17,13 +23,15 @@ header {
     padding: 1%;
     width: 400px;
     font-size: 200%;
-    background-color: rgb(147, 209, 189);
-    color: rgb(6, 53, 35);
+    background-color: var(--block-background);
+    color: var(--block-font);
   }
   
   h2 {
     margin: 2% 0;
     font-size: 250%;
+    background-color: var(--block-background);
+    color: var(--block-font);
   }
   
   nav ul {
@@ -63,12 +71,20 @@ header {
   
   .brand {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end; 
+     /*    align-items: center; */
     padding: 1%;
     height: 400px;
     background-image: url("../images/catskills.JPG");
     background-size: cover;
     background-position: center;
     color: navy;
+  }
+  #subtitle {
+    align-self: flex-end;
+    
+    /* position: relative;
+    top: 50px;
+    right: 100px; */
   }
