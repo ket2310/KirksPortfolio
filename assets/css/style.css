@@ -83,18 +83,32 @@ header {
   }
   #subtitle {
     align-self: flex-end;
-    
-    /* position: relative;
-    top: 50px;
-    right: 100px; */
   }
 
-  .MyWork {
+  .AboutMe {
     display: flex;
-    background-image: url("../images/catskills.JPG");
-
+    justify-content: flex-start;
+    margin-left: 3%;
+    margin-top: 3%;
   }
-  #WilbertSvcs {
+  .MyBio {
+    margin-left: 3%;
+    /* margin-top: 3%; */
+    font-size: 25px; 
+  } 
+
+  .projects {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+
+  .MyWork{
+    background-image: url("../images/catskills.JPG");
+  }
+  
+    #WilbertSvcs {
     align-self: flex-end ;
   }
   
@@ -116,9 +130,4 @@ header {
     flex-wrap: wrap;
   }
 
-  .AboutMe {
-    margin-left: 3%;
-    margin-top: 3%;
-    font-size: 25px;
-  } 
 
