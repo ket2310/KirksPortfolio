@@ -105,10 +105,13 @@ header {
   }
 
   .MyWork{
+    display: flex;
     background-image: url("../images/catskills.JPG");
+    margin-left: 3%;
+    /* margin-top: 3%; */
+    font-size: 25px; 
   }
-  
-    #WilbertSvcs {
+  #WilbertSvcs {
     align-self: flex-end ;
   }
   
@@ -130,4 +133,59 @@ header {
     flex-wrap: wrap;
   }
 
+  /*****************************************/
+
+  .grid-container{
+    display: grid;
+    width: 100%;
+    row-gap: 50px;
+    column-gap: 50px;
+    
+  }
+  
+  .grid-container a {
+    font-weight: bold;
+    color: var(--block-font);
+    text-decoration: none;
+  }
+  
+  .grid-container a:hover {
+    color: #fff;
+  }
+  
+  .grid-item  {
+    display: flex;
+    
+    height: 400px;
+    margin-left: 3%;
+    /* margin-top: 3%; */
+    font-size: 25px; 
+  }
+  h3 {
+    background-color: var(--block-background);
+  }
+  .surf-report {
+    background-image: url("../images/catskills.JPG");
+  }
+
+  .led-wall {
+    background-image: url("../images/catskills.JPG");
+  }
+
+  .react-calc {
+    background-image: url("../images/catskills.JPG");
+  }
+
+  .pastel-puzzles{
+    background-image: url("../images/catskills.JPG");
+  }
+
+  .thefooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    Background-color: #13494b;
+    color: #fff;
+  }
 
