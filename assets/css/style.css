@@ -166,11 +166,11 @@ header {
     background-color: var(--block-background);
   }
   .wilbert {
-    background-image: url("../images/catskills.JPG");
+    background-image: url("../images/wilbert-logo.svg");;
   }
 
-  .led-wall {
-    background-image: url("../images/catskills.JPG");
+  .NPR {
+    background-image: url("../images/logo.jpg");
   }
 
   .react-calc {
