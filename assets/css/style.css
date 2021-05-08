@@ -104,13 +104,6 @@ header {
     margin-top: 3%;
   }
 
-  .MyWork{
-    display: flex;
-    background-image: url("../images/catskills.JPG");
-    margin-left: 3%;
-    /* margin-top: 3%; */
-    font-size: 25px; 
-  }
   #WilbertSvcs {
     align-self: flex-end ;
   }
@@ -155,13 +148,21 @@ header {
   
   .grid-item  {
     display: flex;
-    
+    align-content: end;
+    justify-content: flex-end;
     height: 400px;
     margin-left: 3%;
     /* margin-top: 3%; */
     font-size: 25px; 
   }
+  div h3 span {
+    display: flex;
+    
+  }
   h3 {
+    background-color: var(--block-background);
+  }
+  span {
     background-color: var(--block-background);
   }
   .surf-report {
@@ -180,12 +181,19 @@ header {
     background-image: url("../images/catskills.JPG");
   }
 
-  .thefooter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    Background-color: #13494b;
-    color: #fff;
+  .run-buddy{
+    background-image: url("../images/catskills.JPG");
   }
 
+ 
+span{
+  font-size: small;
+}
+
+.contactme {
+ 
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 3%;
+  margin-top: 3%; 
+}
