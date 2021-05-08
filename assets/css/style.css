@@ -165,7 +165,7 @@ header {
   span {
     background-color: var(--block-background);
   }
-  .surf-report {
+  .wilbert {
     background-image: url("../images/catskills.JPG");
   }
 
@@ -207,6 +207,7 @@ span{
  .footerlist{
   justify-content: space-between;
   align-self: center;
-  width: 500px;
+  font-size: x-large;
+  width: 700px;
   margin: 10px;
 }
