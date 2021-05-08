@@ -197,3 +197,16 @@ span{
   margin-left: 3%;
   margin-top: 3%; 
 }
+
+.thefooter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+ .footerlist{
+  justify-content: space-between;
+  align-self: center;
+  width: 500px;
+  margin: 10px;
+}
