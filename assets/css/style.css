@@ -33,16 +33,11 @@ header {
     background-color: var(--block-background);
     color: var(--block-font);
   }
-  
-  nav ul {
+ 
+  nav {
     display: flex;
-    font-size: 150%;
-    justify-content: space-between;
-    width: 450px;
-    text-decoration: underline;
-    
+    flex-direction: column;
   }
-  
   nav a {
     color: #b9c6ae;
     font-weight: bold;
@@ -53,10 +48,14 @@ header {
     color: #fff;
   }
   
-  nav ul {
-    display: flex;
+ 
+    ul {
+    display: inline-flex;
     justify-content: space-between;
-    min-width: 300px;
+    flex-wrap: wrap;
+    font-size: 150%;
+    width: 400px;
+    text-decoration: underline;
   }
   
   nav a {
