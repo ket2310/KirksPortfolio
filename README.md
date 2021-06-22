@@ -6,5 +6,5 @@ https://ket2310.github.io/KirksPortfolio/
 
 
 
-![My Portfolio](assets/images/myportrait.png)
+![My Portfolio](assets/images/MyPortrait.png)
 
