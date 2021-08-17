@@ -144,7 +144,7 @@ header {
   .Wilbert a {
     color: white;
   }
-  .fromTrilogy {
+  .project2 {
     flex: 30%;    
   }
 
@@ -192,6 +192,28 @@ header {
     border: 1px solid black; 
     border-radius: 5px;
 
+  }
+
+  .team {
+    margin-left: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    padding: 1%;
+    height: 550px;
+    align-items: flex-end;
+    background-image: url("../images/TeamProfile.png");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black; 
+    border-radius: 5px;
+
+  }
+
+  #teamGen {
+    color: var(--block-background);
+    align-content: initial;
   }
   div  h3 span{
     display: flex;
