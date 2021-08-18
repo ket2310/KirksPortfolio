@@ -119,6 +119,10 @@ header {
     font-size: 25px; 
   } 
 
+  h2 span a {
+   font-size: 125%;
+   color: var(--block-background);
+  }
   #professional {
     Background-color: var(--block-font);
     color: var(--block-background);
