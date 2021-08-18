@@ -93,32 +93,37 @@ header {
     align-self: flex-end;
   }
 
+
+  #almaMater {
+    align-self:  flex-end;
+  }
   main  {
     display: flex;
     justify-content: flex-start;
     margin-left: 3%;
     /* margin-top: 3%; */
   }
-  
+    
+  .AboutMe {
+    flex: 30%;
+  }
+
   #about-me {
     Background-color: var(--block-font);
     color: var(--block-background);
   }
-  
-  .AboutMe {
-    flex: 30%;
-  }
-  
-  #my-work {
-    Background-color: var(--block-font);
-    color: var(--block-background);
-  }
-  
+
   .MyBio {
     margin-left: 3%;
     /* margin-top: 3%; */
     font-size: 25px; 
   } 
+
+  #professional {
+    Background-color: var(--block-font);
+    color: var(--block-background);
+  }
+  
 
   .featuredProj {
     flex: 30%;
@@ -135,16 +140,16 @@ header {
   
     padding: 1%;
     height: 850px;
-    align-items: flex-end;
+    align-items: flex-start;
     background-image: url("../images/Wilbert.png");
     background-size: cover;
     background-position: center;
   }
 
   .Wilbert a {
-    color: white;
+    color: var(--block-background);
   }
-  .project2 {
+  .fromTriogy {
     flex: 30%;    
   }
 
@@ -161,7 +166,7 @@ header {
     justify-content: flex-end; 
     padding: 1%;
     height: 550px;
-    align-items: flex-start;
+    align-items: flex-end;
     background-image: url("../images/ecommerce.png");
     background-size: cover;
     background-position: center;
@@ -171,21 +176,19 @@ header {
   }
 
   #repoEcomm {
-    color: white;
+    color: var(--block-background);
   }
-  .project3 {
-    flex: 30%;
-  }
-
+  
   .techBlog {
+    flex: 30%;
     margin-left: 3%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end; 
     padding: 1%;
-    height: 550px;
-    align-items: flex-end;
+    height: 700px;
+    align-items: flex-start;
     background-image: url("../images/techblog.png");
     background-size: cover;
     background-position: center;
@@ -193,7 +196,9 @@ header {
     border-radius: 5px;
 
   }
-
+#tech {
+  color: var(--block-background);
+}
   .team {
     margin-left: 3%;
     width: 100%;
